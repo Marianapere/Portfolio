@@ -1,0 +1,105 @@
+/*
+Colores #A3ACE9 Celeste, #2E42CF azul fuerte, blanco #FFFFFF
+*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+  
+/* ESTILOS GENERALES */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; ;
+}
+
+body{
+    /*  */
+    background-color: aqua;
+    
+}
+
+header{
+    background-color: #FFFFFF;
+    /* position: fixed; */
+    top: 0;
+    
+    z-index: 3;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+main{
+    margin-top: 5.3rem;
+    background-color: blue;
+   
+}
+a{
+    text-decoration: none;
+}
+
+/* FIN ESTILOS GENERALES */
+
+/* HEADER */
+nav a{
+    color: hsl(0, 1%, 58%);
+    font-weight: 600;
+    padding-right: 0.3rem;
+    font-size: 0.85rem;
+    transition: all 250ms;
+}
+.encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 70%;
+    padding: 0.4rem 0rem;
+    
+}
+.logo-header{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.logo-header a{
+    font-size: 1.3rem;
+    font-weight: 800;
+    
+    color: #FFFFFF;
+    background-color: #2E42CF;
+    border-radius: 75% ;
+    padding: 7px 10px 7px 13px;
+    border: 10px;
+}
+
+
+
+nav a:hover{
+    color: #070707;
+}
+
+.menu-responsive{
+    display: none;
+}
+.menu-responsive i{
+    font-size: 2.5rem;
+    color: #2E42CF;
+}
+
+
+/* FIN HEADER */
+
+/* MEDIA QUERIES - HEADER */
+@media (max-width: 1170px) {
+    nav{
+        display: none;
+    }
+    
+    .menu-responsive{
+        display: block;
+    }
+}
+/* FIN MEDIA QUERIES - HEADER */
