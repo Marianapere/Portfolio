@@ -238,3 +238,128 @@ nav a:hover{
 
 
 /* FIN HERO */
+
+
+/* MEDIA-QUERIES HERO */
+@media (max-width:1721px) {
+    .section-hero h1{
+        width: 89%;
+    }
+}
+@media (max-width:1456px) {
+    .section-hero h1{
+        width: 95%;
+        font-size: 4.2rem;
+    }
+    .hero-textos p{
+        width: 100%;
+        font-size: 1.3rem;
+    }
+  
+}
+@media (max-width:1240px){
+    .section-hero h1{
+        width: 100%;
+        font-size: 4rem;
+    }
+    .section-hero img{
+        height: 39rem;
+    }
+}
+@media (max-width: 1170px) {
+    .section-hero h1{
+        width: 95%;
+        font-size: 4rem;
+    }
+    .hero-textos p{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .hero img{
+        display: none;
+    }
+    .hero-textos{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-basis: 100%;
+    }
+    .hero-input input{
+        width: 60vw;
+    }
+    .hero-input button{
+        left: 55vw;
+    }
+    .hero-numeros{
+        gap: 7rem;
+    }
+}
+@media (max-width:920px){
+    .hero-numeros{
+        gap: 3rem;
+    }
+}
+@media(max-width:708px){
+    .section-hero{
+        padding: 3rem 0rem 1rem;
+    }
+    .hero-textos h1{
+        font-size: 3.5rem;
+        width: 100%;
+    }
+    .hero-textos p{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:588px){
+    .hero-textos h1{
+        font-size: 2.6rem;
+    }
+}
+@media(max-width:437px){
+    .hero-textos h1{
+        font-size: 2.2rem;
+    }
+    .hero-textos p{
+        font-size: 1rem;
+    }
+    .hero-numero h3{
+        font-size: 1.6rem;
+    }
+    .hero-input input{
+        width: 65vw;
+        padding: 1.5rem 2.7rem;
+    }
+    .hero-input button{
+        padding: 0.7rem 2rem;
+    }
+    .hero-input i{
+        top: 21px;
+    }
+}
+@media(max-width: 320px){
+    .hero-textos h1{
+        font-size: 1.8rem;
+    }
+    .hero-textos p{
+        font-size: 0.9rem;
+    }
+    .hero-numero h3{
+        font-size: 1.6rem;
+    }
+    .hero-input input{
+        width: 60vw;
+        padding: 1rem 2rem;
+    }
+    .hero-input button{
+        padding: 0.4rem 1.2rem;
+        top: 6px;
+    }
+    .hero-input i{
+        top: 13px;
+        left: 13px;
+    }
+}
+
+
+/* FIN MEDIA-QUERIES HERO */
